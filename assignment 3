@@ -1,0 +1,10 @@
+s_no = int(input('Enter student number:'))
+s_name = input("Enter student name:")
+group = input("Enter student group:")
+s1 = int(input('Enter botony marks:'))
+s2 = int(input('Enter zoology marks:'))
+s3 = int(input('Enter physics marks:'))
+if(s1>=40 and s2 >= 40 and s3>=40):
+    print(f"{s_name} is pass")
+else:
+    print(f"{s_name} is fail")
